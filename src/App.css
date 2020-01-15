@@ -22,3 +22,18 @@ ul.header {
  ul.header li a:hover:not(.active) { background-color: #111;}
  .active { background-color:goldenrod; }
  
+ table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
